@@ -181,7 +181,7 @@ footer{text-align:center;padding:40px 0;color:var(--mute);font-size:13px}
   var campaign = p.get('utm_campaign') || 'mbga_p3_test';
 
   // ⬇⬇ ПОДСТАВЬ точку входа. Вариант А — Telegram-бот ManyChat:
-  var BOT = 'BOT_USERNAME'; // напр. andrey_mbga_bot (без @)
+  var BOT = 'andrey_mbga_bot'; // Telegram-бот ManyChat (точка входа)
   // start-параметр уносит метку в ManyChat → там вешается тег «MBGA-paid-П3»
   var ref = 'mbgap3_' + content;
   var dest = 'https://t.me/' + BOT + '?start=' + encodeURIComponent(ref);
